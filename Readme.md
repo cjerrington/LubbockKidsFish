@@ -1,5 +1,5 @@
 ### KidsFish Lubbock
 
-[KidsFish Lubbock](http://kidsfishlubbock.com)
+[KidsFish Lubbock](https://kidsfishlubbock.com)
 
-THE NEXT KIDSFISH LUBBOCK IS APRIL 21, 2018
+The source code for the KidFish Lubbock website. Hosted on [Github](https://pages.github.com) and designed by [Clayton Errington](https://claytonerrington.com)
