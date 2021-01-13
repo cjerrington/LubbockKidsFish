@@ -1,0 +1,64 @@
+<!-- Schedule -->
+
+<div class="schedule">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="section_title_container text-center">
+                    <div class="section_subtitle">see what's all about</div>
+                    <div class="section_title"><h1>Schedule</h1></div>
+                </div>
+            </div>
+        </div>
+        <div class="row schedule_row">
+
+            <!-- Schedule Column -->
+            <div class="col-lg-6 schedule_col">
+                <div class="schedule_container">
+                    <div class="schedule_title_bar schedule_title_bar_1 text-center">{{ date }}</div>
+                    <div class="schedule_list">
+                        <ul>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div class="schedule_content">
+                                    <div class="schedule_time">7:00 AM</div>
+                                    <div class="schedule_title">Park Opens to begin fishing</div>
+                                </div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div class="schedule_content">
+                                    <div class="schedule_time">09:00 AM</div>
+                                    <div class="schedule_title">Event Drawing</div>
+                                </div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div class="schedule_content">
+                                    <div class="schedule_time">10:00 AM</div>
+                                    <div class="schedule_title">Event Drawing</div>
+                                </div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div class="schedule_content">
+                                    <div class="schedule_time">11:00 AM - 12:00 AM</div>
+                                    <div class="schedule_title">Lunch Served & Event Drawing</div>
+                                </div>
+                            </li>
+                            <li class="d-flex flex-row align-items-center justify-content-start">
+                                <div class="schedule_content">
+                                    <div class="schedule_time">1:00 PM</div>
+                                    <div class="schedule_title">Event ends and final drawings made</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Schedule Column -->
+            <div class="col-lg-6 schedule_col">
+                <div class="schedule_container">
+                    <img src="{{url_for('static', filename='images/2020KidsFish.jpg') }}">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

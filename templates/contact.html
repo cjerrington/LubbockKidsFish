@@ -1,0 +1,73 @@
+{% set active_page = "contact" %}
+{% include "head.html" %}
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{{url_for('static', filename='images/contact_page.jpg')}}" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title"><h1>Contact Us</h1></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+
+	<div class="contact container_wrapper">
+		<div class="container">
+			<div class="row row-eq-height">
+				
+				<!-- Map -->
+				<div class="col-xl-6 order-xl-1 order-2">
+					<div class="contact_map_container">
+						<div class="map">
+							<div id="google_map" class="google_map" data-latitude="33.570481" data-longitude="-101.901862">
+								<div class="map_container">
+									<div id="map"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Contact Content -->
+				<div class="col-xl-6 order-xl-2 order-1">
+					<div class="contact_content">
+						<div class="contact_title">Get in touch</div>
+						<div class="contact_text">
+							<p>We'd love to hear from you and answer any questions you might have.</p>
+						</div>
+						<div class="contact_list">
+							<p>Maxey Community Center</p>
+							<ul>
+								<li>4020 30th St, Lubbock, TX 79410</li>
+								<li>(806) 763-4789 </li>
+								<li>* Maxey Community Center is where the KidsFish Lubbock is held.</li>
+							</ul>
+						</div>
+						<div class="contact_form_container">
+							<form action="#" class="contact_form" id="contact_form">
+								<div class="d-flex flex-md-row flex-column align-items-start justify-content-between">
+									<div><input type="text" class="contact_input" placeholder="Your name" required="required"></div>
+									<div><input type="email" class="contact_input" placeholder="Your email" required="required"></div>
+								</div>
+								<input type="text" class="contact_input" placeholder="Subject">
+								<textarea class="contact_textarea contact_input" placeholder="Message"></textarea>
+								<button class="contact_button"><span>send<img src="{{url_for('static', filename='images/arrow.png')}}" alt=""></span></button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	{% include "footer.html" %}
