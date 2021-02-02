@@ -1,0 +1,20 @@
+	<!-- CTA -->
+
+	<div class="cta">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{{ url_for('static', filename='images/cta.jpg') }}" data-speed="0.8"></div>
+		<div class="cta_overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="cta_content text-center">
+						<div class="cta_title text-center"><h1>Get your tickets now!</h1></div>
+						<div class="cta_text text-center">
+                            <p>Don't forget to register for the event. This makes check in easier and quicker for you to get to your favorite fishing spot!</p>
+                            <p>See you on {{ date }}</p>
+						</div>
+						<div class="button button_3 cta_button"><a href="{{ reglink }}"><span>get tickets<img src="{{ url_for('static', filename='images/arrow.png') }}" alt=""></span></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

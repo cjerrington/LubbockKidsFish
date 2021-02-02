@@ -1,0 +1,7 @@
+_site/
+build/
+env/
+static/
+Lib/
+Scripts/
+donotuse/
