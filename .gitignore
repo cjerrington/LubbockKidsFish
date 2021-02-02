@@ -5,3 +5,4 @@ static/
 Lib/
 Scripts/
 donotuse/
+pyvenv.cfg
