@@ -1,7 +1,8 @@
 from flask import Flask, config, render_template, request
+from datetime import datetime, time
+
 app = Flask(__name__)
 app.config.from_pyfile('./config/config.cfg')
-
 
 @app.route('/')
 def home():
@@ -11,7 +12,6 @@ def home():
 @app.route('/contact/')
 def contact():
     return render_template('contact.html', date=app.config["EVENT_DATE"], title=app.config["TITLE"], annual=app.config["ANNUAL"], reglink=app.config["REG_LINK"])
-
 
 
 if __name__ == '__main__':

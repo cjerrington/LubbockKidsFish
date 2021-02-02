@@ -3,6 +3,7 @@
 					<ul class="d-flex flex-row align-items-center justify-content-start">
 						<li class="{{ 'active' if active_page == 'home' else '' }}"><a href="{{ url_for('home') }}">Home</a></li>
 						<li><a href="{{ url_for('home') }}#about">About us</a></li>
+						<li><a href="{{ url_for('home') }}#sponsors">Sponsors</a></li>
 						<li class="{{ 'active' if active_page == 'contact' else '' }}"><a href="{{ url_for('contact') }}">Contact</a></li>
 					</ul>
 				</nav>
@@ -36,8 +37,9 @@
             <nav class="menu_nav">
                 <ul class="d-flex flex-column align-items-center justify-content-start">
                     <li><a href="{{ url_for('home') }}">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li><a href="{{ url_for('home') }}#about">About us</a></li>
+					<li><a href="{{ url_for('contact') }}">Contact</a></li>
+					<li><a href="{{ reglink }}"></a></li>
                 </ul>
             </nav>
         </div>

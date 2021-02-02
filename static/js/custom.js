@@ -113,7 +113,8 @@ $(document).ready(function()
 				autoplayTimeout:8000,
 				loop:true,
 				smartSpeed:1200,
-				nav:false
+				nav:false,
+				animateOut: 'fadeOut'
 			});
 
 			/* Custom dots events */
@@ -147,12 +148,12 @@ $(document).ready(function()
     	if($('.timer').length)
     	{
     		// Uncomment line below and replace date
-	    	// var target_date = new Date("Dec 7, 2019").getTime();
+	    	var target_date = new Date("April 24, 2021").getTime();
 
 	    	// comment lines below
-	    	var date = new Date();
-	    	date.setDate(date.getDate() + 3);
-	    	var target_date = date.getTime();
+	    	// var date = new Date();
+	    	// date.setDate(date.getDate() + 3);
+	    	// var target_date = date.getTime();
 	    	//----------------------------------------
 	 
 			// variables for time units
