@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://serene-lovelace-9ff603.netlify.app/"
+  to = "https://kidsfishlubbock.com"
+  status = 301
+  force = true
