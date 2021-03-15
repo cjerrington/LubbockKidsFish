@@ -19,6 +19,10 @@ def notfound():
     return render_template('404.html', date=app.config["EVENT_DATE"], title=app.config["TITLE"], annual=app.config["ANNUAL"], reglink=app.config["REG_LINK"])
 
 
+@app.route('/privacy/')
+def privacy():
+    return render_template('privacy.html', date=app.config["EVENT_DATE"], title=app.config["TITLE"], annual=app.config["ANNUAL"], reglink=app.config["REG_LINK"])
+
 if __name__ == '__main__':
     app.config['TEMPLATES_AUTO_RELOAD'] = True
     app.run(debug=True, use_reloader=True)
