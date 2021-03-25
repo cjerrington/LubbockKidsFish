@@ -12,13 +12,14 @@
 
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="#">
+                        <a href="{{ url_for('home') }}">
                             <span>Kid<span>Fish</span></span>
                             <span>Lubbock</span>
                         </a>
                     </div>
                     <div class="footer_text">
-                        <p>Proudly sponsored by the Lubbock Lions club and Cabela's</p>
+                        <p>Proudly sponsored by the <a href="https://lubbocklions.org/">Lubbock Lions Club</a> and <a href="https://stores.cabelas.com/us/tx/lubbock/3030-w-loop-289.html">Cabela's</a><br />
+                        <a href="/waiver">Registation Waiver</a> | <a href="{{ reglink }}">Register</a></p>
                     </div>
                     <div class="social footer_social">
                         <ul class="d-flex flex-row align-items-center justify-content-start">
