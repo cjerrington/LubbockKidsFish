@@ -148,7 +148,7 @@ $(document).ready(function()
     	if($('.timer').length)
     	{
     		// Uncomment line below and replace date
-	    	var target_date = new Date("April 24, 2021").getTime();
+	    	var target_date = new Date("April 23, 2022").getTime();
 
 	    	// comment lines below
 	    	// var date = new Date();
