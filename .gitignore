@@ -5,3 +5,4 @@ Lib/
 Scripts/
 donotuse/
 pyvenv.cfg
+__pycache__/
